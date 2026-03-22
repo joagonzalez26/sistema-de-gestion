@@ -4,6 +4,11 @@ Aplicación de escritorio desarrollada en **Python + PySide6** para agregar, edi
 
 > Este proyecto es especial para mí porque fue el **primer sistema completo que desarrollé en PyCharm Professional**, usando la licencia educativa que obtuve como estudiante. También fue mi primer proyecto de escritorio con una interfaz más cuidada, navegación entre vistas y almacenamiento persistente.
 
+<img width="1392" height="944" alt="Captura de pantalla 2026-03-22 a la(s) 03 09 17" src="https://github.com/user-attachments/assets/78d820be-f7cc-4035-b9fd-2438b58d1586" />
+
+
+
+
 ---
 
 ## Vista general
