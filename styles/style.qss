@@ -1,0 +1,259 @@
+QWidget {
+    color: #f4f7fb;
+    font-family: "Inter", "Segoe UI", "Arial";
+    font-size: 14px;
+    background: transparent;
+}
+
+QLabel {
+    background: transparent;
+}
+
+QMainWindow {
+    background-color: #0b0f14;
+}
+
+#sidebar {
+    background-color: rgba(10, 18, 32, 0.92);
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+#logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    padding: 4px 0 8px 0;
+}
+
+QPushButton {
+    background-color: rgba(26, 35, 50, 0.92);
+    color: #e6edf7;
+    border: 1px solid #283244;
+    border-radius: 14px;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+QPushButton:hover {
+    background-color: rgba(33, 44, 61, 0.95);
+    border: 1px solid #3a4860;
+}
+
+QPushButton:pressed {
+    background-color: rgba(24, 33, 47, 0.95);
+}
+
+QPushButton[active="true"] {
+    background-color: #0ea472;
+    color: #ffffff;
+    border: 1px solid #19c187;
+}
+
+QPushButton[active="true"]:hover {
+    background-color: #12b47d;
+    border: 1px solid #24d899;
+}
+
+#contentArea,
+#contentStack,
+#pageInicio,
+#pageTareas {
+    background: transparent;
+}
+
+#header {
+    background-color: rgba(12, 22, 38, 0.78);
+    border: 1px solid rgba(108, 136, 184, 0.18);
+    border-radius: 24px;
+}
+
+#mainTitle {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    background: transparent;
+}
+
+#subTitle {
+    font-size: 14px;
+    color: #d9e4f5;
+    background: transparent;
+}
+
+#profileBadge {
+    background-color: rgba(7, 16, 28, 0.90);
+    border: 2px solid #13d79a;
+    border-radius: 26px;
+    padding: 4px;
+}
+
+#card {
+    background-color: rgba(12, 22, 38, 0.60);
+    border: 1px solid rgba(108, 136, 184, 0.16);
+    border-radius: 22px;
+}
+
+#cardTitle {
+    color: #d6e0ee;
+    font-size: 13px;
+    font-weight: 700;
+    background: transparent;
+}
+
+#cardValue {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    background: transparent;
+}
+
+#mainPanel {
+    background-color: rgba(12, 22, 38, 0.56);
+    border: 1px solid rgba(108, 136, 184, 0.16);
+    border-radius: 24px;
+}
+
+#panelTitle {
+    font-size: 19px;
+    font-weight: 800;
+    color: #ffffff;
+    background: transparent;
+}
+
+#panelText {
+    font-size: 14px;
+    color: #eef4fb;
+    line-height: 1.6;
+    background: transparent;
+}
+
+QLineEdit {
+    background-color: rgba(8, 18, 32, 0.88);
+    color: #ffffff;
+    border: 1px solid rgba(101, 130, 177, 0.30);
+    border-radius: 16px;
+    padding: 14px 16px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #14bc84;
+    background-color: rgba(10, 22, 39, 0.94);
+}
+
+QLineEdit::placeholder {
+    color: #c9d7eb;
+}
+
+QListWidget#taskList {
+    background-color: rgba(9, 19, 34, 0.82);
+    border: 1px solid rgba(101, 130, 177, 0.24);
+    border-radius: 20px;
+    padding: 12px;
+    outline: none;
+}
+
+QListWidget#taskList::item {
+    background-color: rgba(17, 26, 40, 0.84);
+    padding: 14px 16px;
+    margin: 6px 0;
+    border-radius: 14px;
+    color: #e8eef8;
+}
+
+QListWidget#taskList::item:hover {
+    background-color: rgba(24, 36, 55, 0.92);
+}
+
+QListWidget#taskList::item:selected {
+    background-color: #0ea472;
+    color: #ffffff;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 10px;
+    margin: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #2b3547;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3a465c;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical,
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical,
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+QPushButton[text="Agregar"] {
+    background-color: #0ea472;
+    border: 1px solid #19c187;
+    color: #ffffff;
+}
+
+QPushButton[text="Agregar"]:hover {
+    background-color: #12b47d;
+}
+
+QPushButton[text="Editar"] {
+    background-color: #2b6de0;
+    border: 1px solid #4b86ec;
+    color: #ffffff;
+}
+
+QPushButton[text="Editar"]:hover {
+    background-color: #3a7cf2;
+}
+
+QPushButton[text="Eliminar"] {
+    background-color: #c43d4b;
+    border: 1px solid #df5b68;
+    color: #ffffff;
+}
+
+QPushButton[text="Eliminar"]:hover {
+    background-color: #d94b5a;
+}
+
+QPushButton[text="Completar"] {
+    background-color: #7a4de8;
+    border: 1px solid #946dff;
+    color: #ffffff;
+}
+
+QPushButton[text="Completar"]:hover {
+    background-color: #8a5cff;
+}
+
+QPushButton[text="Ir a Tareas"] {
+    background-color: rgba(31, 42, 60, 0.94);
+    border: 1px solid #324159;
+    color: #ffffff;
+    padding: 12px 18px;
+}
+
+QPushButton[text="Ir a Tareas"]:hover {
+    background-color: rgba(40, 51, 73, 0.98);
+}
+
+QPushButton[text="Salir"] {
+    background-color: rgba(30, 36, 48, 0.94);
+    border: 1px solid #313b4d;
+}
+
+QPushButton[text="Salir"]:hover {
+    background-color: rgba(38, 46, 61, 0.98);
+}
