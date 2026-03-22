@@ -91,7 +91,7 @@ La app usa:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <TU-URL-DEL-REPO>
+git clone URL-DEL-REPOSITORIO
 cd sistema_gestion
 ```
 
@@ -135,7 +135,7 @@ Ejemplo:
         "completada": false
     },
     {
-        "texto": "Subir sistema a GitHub",
+        "texto": "Subir este hermoso sistema a GitHub ;) ",
         "completada": true
     }
 ]
